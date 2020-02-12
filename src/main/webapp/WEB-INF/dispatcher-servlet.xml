@@ -38,10 +38,11 @@
         <property name="username" value="root"></property>
         <property name="password" value="mysql"></property>
  -->
-        <property name="url" value="jdbc:mysql://localhost:3306/mishoppi_shoppingcart?serverTimezone=UTC"></property>
-        <property name="username" value="mishoppi_admin"></property>
-        <property name="password" value="K@ni526$"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/mishopp1_shoppingcart?serverTimezone=UTC"></property>
+        <property name="username" value="mishopp1_ganesha"></property>
+        <property name="password" value="Kani123$Vina123$"></property>
     </bean>
+    
  
     <!-- Hibernate SessionFactory -->
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
